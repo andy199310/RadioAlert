@@ -5,10 +5,49 @@
 
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16" />
 
+
+    <!-- The permission part  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+
+
+    <!-- The application part  -->
+    <!-- 請記得要換行   然後再上面主解一下說這是誰創的 要做甚麼的:D-->
+
     <application android:allowBackup="true"
         android:label="@string/app_name"
         android:icon="@drawable/ic_launcher"
         android:theme="@style/AppTheme">
+
+        <!--  Main activity-->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!--  The activity to play radio     By:Green -->
+        <activity
+                android:name=".RadioActivity"
+                android:label="@string/app_name" >
+        </activity>
+
+        <activity
+                android:name=".MyAlarm"
+                android:label="@string/my_alarm_label" >
+        </activity>
+
+
+        <!--  ?? -->
+        <receiver android:name=".PlayReceiver" >
+            <intent-filter>
+                <action android:name="com.weigreen.radioalert.PlayReceiver" />
+            </intent-filter>
+        </receiver>
+
+
 
     </application>
 
