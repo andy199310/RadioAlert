@@ -1,5 +1,7 @@
 package com.weigreen.radioalert;
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.FragmentTransaction;
@@ -8,7 +10,8 @@ import android.view.Menu;
 
 public class MainActivity extends Activity {
 
-	@Override
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
@@ -19,6 +22,9 @@ public class MainActivity extends Activity {
 		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
 		fragmentTransaction.replace(R.id.functionFragment, homeFragment);
 		fragmentTransaction.commit();
+
+        RadioPinewave radioPinewave = new RadioPinewave(getApplicationContext());
+        radioPinewave.start();
 	}
 
 	@Override
