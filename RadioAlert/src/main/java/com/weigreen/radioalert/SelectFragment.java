@@ -33,7 +33,15 @@ public class SelectFragment extends ListFragment {
 
     	Toast.makeText(getActivity(), getActivity().getString(R.string.label_choose) + selection[position], Toast.LENGTH_SHORT).show();
 
-    	if (position == 0) {
+        if (position == 0) {
+
+            LivePinewaveFragment livePinewaveFragment = new LivePinewaveFragment();
+            FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.functionFragment, livePinewaveFragment);
+            fragmentTransaction.commit();
+        }
+
+    	else if (position == 1) {
 			
     		ProgramFuture programFuture = new ProgramFuture();
     		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
@@ -41,7 +49,7 @@ public class SelectFragment extends ListFragment {
     		fragmentTransaction.commit();
 		}
     	
-    	else if (position == 1) {
+    	else if (position == 2) {
     	
     		ProgramPast programPast = new ProgramPast();
     		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
@@ -49,18 +57,22 @@ public class SelectFragment extends ListFragment {
     		fragmentTransaction.commit();
 		}
     	
-    	else if (position == 2) {
+    	else if (position == 3) {
     		
     		ShareFragment shareFragment = new ShareFragment();
     		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
     		fragmentTransaction.replace(R.id.functionFragment, shareFragment);
     		fragmentTransaction.commit();
 		}
-    	else if (position == 3) {
+    	else if (position == 4) {
     		
     		SQLBridge.updatePinewave(getActivity().getApplicationContext());
 		}
-    	else if (position == 4) {
+        else if (position == 5) {
+
+
+        }
+    	else if (position == 6) {
     		
     		HomeFragment homeFragment = new HomeFragment();
     		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();

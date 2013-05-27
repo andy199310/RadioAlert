@@ -18,11 +18,13 @@
     <string name="share_broadcast">Let\'s listen to PineWave</string>
 
     <string-array name="selection">
-        <item>Reservation</item>
         <item>Listen right now</item>
+        <item>Reservation</item>
+        <item>Choose to listen</item>
         <item>Share for friends</item>
         <item>Update program table</item>
-        <item>return home</item>
+        <item>test</item>
+        <item>Return home</item>
     </string-array>
 
     <string-array name="share">

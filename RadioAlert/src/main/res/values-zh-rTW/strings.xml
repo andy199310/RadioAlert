@@ -18,10 +18,12 @@
     <string name="share_broadcast">快來跟我一起聽松濤電台</string>
 
     <string-array name="selection">
+        <item>立即收聽</item>
         <item>預約節目</item>
         <item>隨選即聽</item>
         <item>分享好友</item>
         <item>更新節目表</item>
+        <item>test</item>
         <item>回到首頁</item>
     </string-array>
 

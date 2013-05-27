@@ -20,9 +20,11 @@ public class MainActivity extends Activity {
 		
 		
 		HomeFragment homeFragment = new HomeFragment();
-		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-		fragmentTransaction.replace(R.id.functionFragment, homeFragment);
-		fragmentTransaction.commit();
+        FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.functionFragment, homeFragment);
+        fragmentTransaction.commit();
+
+
 	}
 
 	@Override
