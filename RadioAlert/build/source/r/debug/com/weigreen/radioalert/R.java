@@ -32,15 +32,16 @@ public final class R {
         public static final int button_stop=0x7f09000f;
         public static final int functionFragment=0x7f090005;
         public static final int imageView1=0x7f090014;
-        public static final int linearLayout1=0x7f090015;
+        public static final int linearLayout1=0x7f090016;
         public static final int listenButton=0x7f090001;
+        public static final int live_switch=0x7f090015;
         public static final int notificationTextView=0x7f090000;
-        public static final int programFutureListView=0x7f090016;
-        public static final int programPastListView=0x7f090017;
+        public static final int programFutureListView=0x7f090017;
+        public static final int programPastListView=0x7f090018;
         public static final int progressBar1=0x7f090012;
         public static final int progressBar2=0x7f090011;
         public static final int selectFragment=0x7f090004;
-        public static final int shareSpinner=0x7f090018;
+        public static final int shareSpinner=0x7f090019;
         public static final int tableLayout1=0x7f090006;
         public static final int tableRow1=0x7f09000a;
         public static final int tableRow2=0x7f09000b;
@@ -58,11 +59,12 @@ public final class R {
         public static final int activity_radio=0x7f030002;
         public static final int copy_of_activity_main=0x7f030003;
         public static final int home=0x7f030004;
-        public static final int program=0x7f030005;
-        public static final int program_future_fragment=0x7f030006;
-        public static final int program_past_fragment=0x7f030007;
-        public static final int select_fragment=0x7f030008;
-        public static final int share_fragment=0x7f030009;
+        public static final int live_fragment=0x7f030005;
+        public static final int program=0x7f030006;
+        public static final int program_future_fragment=0x7f030007;
+        public static final int program_past_fragment=0x7f030008;
+        public static final int select_fragment=0x7f030009;
+        public static final int share_fragment=0x7f03000a;
     }
     public static final class string {
         public static final int action_settings=0x7f070000;
@@ -71,13 +73,14 @@ public final class R {
         public static final int hint_message=0x7f070003;
         public static final int label_choose=0x7f070004;
         public static final int listen_message=0x7f070005;
-        public static final int my_alarm_label=0x7f070006;
-        public static final int notification=0x7f070007;
-        public static final int send_mail=0x7f070008;
-        public static final int share_broadcast=0x7f070009;
-        public static final int share_send=0x7f07000a;
-        public static final int start_message=0x7f07000b;
-        public static final int wait_message=0x7f07000c;
+        public static final int live=0x7f070006;
+        public static final int my_alarm_label=0x7f070007;
+        public static final int notification=0x7f070008;
+        public static final int send_mail=0x7f070009;
+        public static final int share_broadcast=0x7f07000a;
+        public static final int share_send=0x7f07000b;
+        public static final int start_message=0x7f07000c;
+        public static final int wait_message=0x7f07000d;
     }
     public static final class style {
         /** 

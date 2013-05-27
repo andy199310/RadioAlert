@@ -1,6 +1,7 @@
 package com.weigreen.radioalert;
 
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
@@ -22,9 +23,6 @@ public class MainActivity extends Activity {
 		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
 		fragmentTransaction.replace(R.id.functionFragment, homeFragment);
 		fragmentTransaction.commit();
-
-        RadioPinewave radioPinewave = new RadioPinewave(getApplicationContext());
-        radioPinewave.start();
 	}
 
 	@Override

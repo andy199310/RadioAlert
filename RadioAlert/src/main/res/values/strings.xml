@@ -32,4 +32,8 @@
         <item>Share by facebook</item>
     </string-array>
 
+
+
+    <string name="live">Live</string>
+
 </resources>
