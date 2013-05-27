@@ -12,8 +12,8 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 public class SelectFragment extends ListFragment {
-	
-	private String[] selection = {"預約節目", "隨選即聽", "分享好友", "更新節目表", "回到首頁"};
+
+    private String[] selection;
 	private ArrayAdapter<String> selectionAdapter;
 	
     @Override
@@ -21,14 +21,18 @@ public class SelectFragment extends ListFragment {
     	
         super.onCreate(savedInstanceState);
 
+        /*selection = new String[]{getActivity().getResources().getString(R.string.reservation), getActivity().getResources().getString(R.string.listen_right_now),
+                getActivity().getResources().getString(R.string.share_for_friends), getActivity().getResources().getString(R.string.update_program_table),
+                getActivity().getResources().getString(R.string.return_home)};*/
+        selection = getActivity().getResources().getStringArray(R.array.selection);
         selectionAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, selection);
         setListAdapter(selectionAdapter);
     }
 
     public void onListItemClick(ListView listView, View view, int position, long id) {
-        
-    	Toast.makeText(getActivity(), "您選擇項目是 : " + selection[position], Toast.LENGTH_SHORT).show();
-    	
+
+    	Toast.makeText(getActivity(), getActivity().getString(R.string.label_choose) + selection[position], Toast.LENGTH_SHORT).show();
+
     	if (position == 0) {
 			
     		ProgramFuture programFuture = new ProgramFuture();
