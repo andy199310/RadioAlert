@@ -27,7 +27,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="現正播放:" /> 
+                android:text="@string/now_playing" />
 
             <TextView
                 android:id="@+id/textView_name"
@@ -51,7 +51,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="DJ:" />
+                android:text="@string/dj" />
 
             <TextView
                 android:id="@+id/textView_DJ"
@@ -70,7 +70,7 @@
         android:layout_marginBottom="100dp"
         android:clickable="false"
         android:onClick="start"
-        android:text="播放" />
+        android:text="@string/play" />
 
     <Button
         android:id="@+id/button_stop"
@@ -81,7 +81,7 @@
         android:layout_toRightOf="@+id/button_start"
         android:clickable="false"
         android:onClick="stop"
-        android:text="停止" />
+        android:text="@string/stop" />
 
     <Button
         android:id="@+id/button_pause"
@@ -92,7 +92,7 @@
         android:layout_toRightOf="@+id/button_stop"
         android:clickable="false"
         android:onClick="pause"
-        android:text="暫停" />
+        android:text="@string/pause" />
 
     <ProgressBar
         android:id="@+id/progressBar2"
@@ -120,7 +120,7 @@
         android:layout_alignTop="@+id/tableLayout1"
         android:layout_marginLeft="14dp"
         android:layout_marginTop="15dp"
-        android:text="載入中"
+        android:text="@string/loading"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

@@ -13,6 +13,13 @@
     <string name="my_alarm_label">Alarm</string>
 
 
+    <string name="now_playing">Now playing</string>
+    <string name="dj">DJ:</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="loading">Loading</string>
+
     <string name="label_choose">You choose: </string>
     <string name="share_send">Send Email</string>
     <string name="share_broadcast">Let\'s listen to PineWave</string>

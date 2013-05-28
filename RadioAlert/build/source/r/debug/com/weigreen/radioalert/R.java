@@ -69,18 +69,24 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f070000;
         public static final int app_name=0x7f070001;
-        public static final int hello_world=0x7f070002;
-        public static final int hint_message=0x7f070003;
-        public static final int label_choose=0x7f070004;
-        public static final int listen_message=0x7f070005;
-        public static final int live=0x7f070006;
-        public static final int my_alarm_label=0x7f070007;
-        public static final int notification=0x7f070008;
-        public static final int send_mail=0x7f070009;
-        public static final int share_broadcast=0x7f07000a;
-        public static final int share_send=0x7f07000b;
-        public static final int start_message=0x7f07000c;
-        public static final int wait_message=0x7f07000d;
+        public static final int dj=0x7f070002;
+        public static final int hello_world=0x7f070003;
+        public static final int hint_message=0x7f070004;
+        public static final int label_choose=0x7f070005;
+        public static final int listen_message=0x7f070006;
+        public static final int live=0x7f070007;
+        public static final int loading=0x7f070008;
+        public static final int my_alarm_label=0x7f070009;
+        public static final int notification=0x7f07000a;
+        public static final int now_playing=0x7f07000b;
+        public static final int pause=0x7f07000c;
+        public static final int play=0x7f07000d;
+        public static final int send_mail=0x7f07000e;
+        public static final int share_broadcast=0x7f07000f;
+        public static final int share_send=0x7f070010;
+        public static final int start_message=0x7f070011;
+        public static final int stop=0x7f070012;
+        public static final int wait_message=0x7f070013;
     }
     public static final class style {
         /** 
