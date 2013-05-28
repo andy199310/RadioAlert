@@ -41,17 +41,26 @@
 
         <!--  The activity to play live radio     By:Green -->
         <activity android:name=".LivePinewave" android:label="LivePinewave"/>
-        <activity android:name=".LivePinewaveFragment" android:label="LivePinewaveFragment"/>
 
 
-        <!--  ?? -->
+        <!--  wind -->
         <receiver android:name=".PlayReceiver" >
             <intent-filter>
                 <action android:name="com.weigreen.radioalert.PlayReceiver" />
             </intent-filter>
         </receiver>
 
+        <!-- widget receiver   By:wind -->
+        <receiver android:name=".Widget" android:label="@string/app_label" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
 
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_config" />
+
+        </receiver>
     </application>
 
 </manifest>
