@@ -52,6 +52,8 @@ public final class R {
         public static final int textView_loading=0x7f0a0013;
         public static final int textView_name=0x7f0a0009;
         public static final int waitButton=0x7f0a0002;
+        public static final int widget_start=0x7f0a001a;
+        public static final int widget_stop=0x7f0a001b;
     }
     public static final class layout {
         public static final int activity_alarm=0x7f030000;

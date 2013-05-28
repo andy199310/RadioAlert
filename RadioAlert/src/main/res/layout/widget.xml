@@ -6,13 +6,15 @@
         android:layout_height="match_parent" >
 
     <Button
+            android:id="@+id/widget_start"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="@string/start_music"/>
 
     <Button
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:text="@string/stop_music" />
+            android:id="@+id/widget_stop"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/stop_music" />
 
 </LinearLayout>

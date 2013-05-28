@@ -124,7 +124,6 @@ public class SQLBridge {
 					tmpData.add(tmp);
 				}
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			

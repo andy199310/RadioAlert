@@ -43,6 +43,7 @@
         <activity android:name=".LivePinewave" android:label="LivePinewave"/>
 
 
+
         <!--  wind -->
         <receiver android:name=".PlayReceiver" >
             <intent-filter>
@@ -61,6 +62,9 @@
                 android:resource="@xml/widget_config" />
 
         </receiver>
+
+        <!-- Radio service (play music in background)   BY:Green-->
+        <service android:name=".RadioService"/>
     </application>
 
 </manifest>
