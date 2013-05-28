@@ -24,6 +24,9 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int left=0x7f020001;
+        public static final int logo=0x7f020002;
+        public static final int pause_icon=0x7f020003;
+        public static final int play_icon=0x7f020004;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f0a0003;
@@ -52,8 +55,9 @@ public final class R {
         public static final int textView_loading=0x7f0a0013;
         public static final int textView_name=0x7f0a0009;
         public static final int waitButton=0x7f0a0002;
-        public static final int widget_start=0x7f0a001a;
-        public static final int widget_stop=0x7f0a001b;
+        public static final int widget_logo=0x7f0a001a;
+        public static final int widget_start=0x7f0a001b;
+        public static final int widget_stop=0x7f0a001c;
     }
     public static final class layout {
         public static final int activity_alarm=0x7f030000;
