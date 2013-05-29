@@ -46,7 +46,7 @@ public class MyAlarm extends Activity
 		listenButton = (Button)findViewById(R.id.listenButton);
 		waitButton = (Button)findViewById(R.id.waitButton);
         
-		notificationTextView.setText("±z¹w©wªº \"" + name + "\" ®É¶¡¨ì¤F\n½Ğ°İ±z­n¦¬Å¥¶Ü?");
+		notificationTextView.setText("æ‚¨é å®šçš„ \"" + name + "\" æ™‚é–“åˆ°äº†\nè«‹å•æ‚¨è¦æ”¶è½å—?");
 		
 		
         final NotificationManager notificationManager=(NotificationManager) getSystemService(NOTIFICATION_SERVICE);
