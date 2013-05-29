@@ -46,9 +46,8 @@
 
     <string name="live">Live</string>
 
+
     <!-- wind -->
-    <string name="start_music">Start!</string>
-    <string name="stop_music">Stop!</string>
     <string name="app_label">PineWave Radio</string>
 
 </resources>

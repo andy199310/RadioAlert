@@ -41,4 +41,8 @@
         <item>Share by facebook</item>
     </string-array>
 
+
+    <!-- wind -->
+    <string name="app_label">PineWave Radio</string>
+
 </resources>

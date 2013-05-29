@@ -41,4 +41,8 @@
         <item>ＦＢ分享</item>
     </string-array>
 
+
+    <!-- wind -->
+    <string name="app_label">松濤收音機</string>
+
 </resources>
