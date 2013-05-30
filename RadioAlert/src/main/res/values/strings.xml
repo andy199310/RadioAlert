@@ -49,5 +49,11 @@
 
     <!-- wind -->
     <string name="app_label">PineWave Radio</string>
+    <string name="menu_play_music">Play Music</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+    <string name="play_music_message">Please choose another one.</string>
+    <string name="about_message">Made by Team 11!</string>
 
 </resources>

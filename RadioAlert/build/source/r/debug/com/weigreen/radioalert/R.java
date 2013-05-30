@@ -29,35 +29,39 @@ public final class R {
         public static final int play_icon=0x7f020004;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f0a0003;
-        public static final int button_pause=0x7f0a0010;
-        public static final int button_start=0x7f0a000e;
-        public static final int button_stop=0x7f0a000f;
-        public static final int functionFragment=0x7f0a0005;
-        public static final int imageView1=0x7f0a0014;
-        public static final int linearLayout1=0x7f0a0016;
-        public static final int listenButton=0x7f0a0001;
-        public static final int live_switch=0x7f0a0015;
-        public static final int notificationTextView=0x7f0a0000;
-        public static final int programFutureListView=0x7f0a0017;
-        public static final int programPastListView=0x7f0a0018;
-        public static final int progressBar1=0x7f0a0012;
-        public static final int progressBar2=0x7f0a0011;
-        public static final int selectFragment=0x7f0a0004;
-        public static final int shareSpinner=0x7f0a0019;
-        public static final int tableLayout1=0x7f0a0006;
-        public static final int tableRow1=0x7f0a000a;
-        public static final int tableRow2=0x7f0a000b;
-        public static final int tableRow5=0x7f0a0007;
-        public static final int textView1=0x7f0a0008;
-        public static final int textView2=0x7f0a000c;
-        public static final int textView_DJ=0x7f0a000d;
-        public static final int textView_loading=0x7f0a0013;
-        public static final int textView_name=0x7f0a0009;
-        public static final int waitButton=0x7f0a0002;
-        public static final int widget_logo=0x7f0a001a;
-        public static final int widget_start=0x7f0a001b;
-        public static final int widget_stop=0x7f0a001c;
+        public static final int LinearLayout1=0x7f0b0013;
+        public static final int button_pause=0x7f0b000f;
+        public static final int button_start=0x7f0b000d;
+        public static final int button_stop=0x7f0b000e;
+        public static final int functionFragment=0x7f0b0004;
+        public static final int home=0x7f0b0014;
+        public static final int imageView1=0x7f0b0015;
+        public static final int linearLayout1=0x7f0b0017;
+        public static final int listenButton=0x7f0b0001;
+        public static final int live_switch=0x7f0b0016;
+        public static final int menuItemAbout=0x7f0b001f;
+        public static final int menuItemExit=0x7f0b0020;
+        public static final int menuItemPlayMusic=0x7f0b001e;
+        public static final int notificationTextView=0x7f0b0000;
+        public static final int programFutureListView=0x7f0b0018;
+        public static final int programPastListView=0x7f0b0019;
+        public static final int progressBar1=0x7f0b0011;
+        public static final int progressBar2=0x7f0b0010;
+        public static final int selectFragment=0x7f0b0003;
+        public static final int shareSpinner=0x7f0b001a;
+        public static final int tableLayout1=0x7f0b0005;
+        public static final int tableRow1=0x7f0b0009;
+        public static final int tableRow2=0x7f0b000a;
+        public static final int tableRow5=0x7f0b0006;
+        public static final int textView1=0x7f0b0007;
+        public static final int textView2=0x7f0b000b;
+        public static final int textView_DJ=0x7f0b000c;
+        public static final int textView_loading=0x7f0b0012;
+        public static final int textView_name=0x7f0b0008;
+        public static final int waitButton=0x7f0b0002;
+        public static final int widget_logo=0x7f0b001b;
+        public static final int widget_start=0x7f0b001c;
+        public static final int widget_stop=0x7f0b001d;
     }
     public static final class layout {
         public static final int activity_alarm=0x7f030000;
@@ -73,30 +77,36 @@ public final class R {
         public static final int share_fragment=0x7f03000a;
         public static final int widget=0x7f03000b;
     }
+    public static final class menu {
+        public static final int linear_layout_context_menu=0x7f0a0000;
+    }
     public static final class string {
-        public static final int action_settings=0x7f080000;
-        public static final int app_label=0x7f080001;
-        public static final int app_name=0x7f080002;
-        public static final int dj=0x7f080003;
-        public static final int hello_world=0x7f080004;
-        public static final int hint_message=0x7f080005;
-        public static final int label_choose=0x7f080006;
-        public static final int listen_message=0x7f080007;
-        public static final int live=0x7f080008;
-        public static final int loading=0x7f080009;
-        public static final int my_alarm_label=0x7f08000a;
-        public static final int notification=0x7f08000b;
-        public static final int now_playing=0x7f08000c;
-        public static final int pause=0x7f08000d;
-        public static final int play=0x7f08000e;
-        public static final int send_mail=0x7f08000f;
-        public static final int share_broadcast=0x7f080010;
-        public static final int share_send=0x7f080011;
-        public static final int start_message=0x7f080012;
-        public static final int start_music=0x7f080013;
-        public static final int stop=0x7f080014;
-        public static final int stop_music=0x7f080015;
-        public static final int wait_message=0x7f080016;
+        public static final int about_message=0x7f080000;
+        public static final int action_settings=0x7f080001;
+        public static final int app_label=0x7f080002;
+        public static final int app_name=0x7f080003;
+        public static final int dj=0x7f080004;
+        public static final int hello_world=0x7f080005;
+        public static final int hint_message=0x7f080006;
+        public static final int label_choose=0x7f080007;
+        public static final int listen_message=0x7f080008;
+        public static final int live=0x7f080009;
+        public static final int loading=0x7f08000a;
+        public static final int menu_about=0x7f08000b;
+        public static final int menu_exit=0x7f08000c;
+        public static final int menu_play_music=0x7f08000d;
+        public static final int my_alarm_label=0x7f08000e;
+        public static final int notification=0x7f08000f;
+        public static final int now_playing=0x7f080010;
+        public static final int pause=0x7f080011;
+        public static final int play=0x7f080012;
+        public static final int play_music_message=0x7f080013;
+        public static final int send_mail=0x7f080014;
+        public static final int share_broadcast=0x7f080015;
+        public static final int share_send=0x7f080016;
+        public static final int start_message=0x7f080017;
+        public static final int stop=0x7f080018;
+        public static final int wait_message=0x7f080019;
     }
     public static final class style {
         /** 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">RadioAlert</string>
+    <string name="app_name">松濤收音機</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="hint_message">鬧鐘!</string>
@@ -44,5 +44,11 @@
 
     <!-- wind -->
     <string name="app_label">松濤收音機</string>
+    <string name="menu_play_music">立即撥放</string>
+    <string name="menu_about">關於此程式</string>
+    <string name="menu_exit">關閉程式</string>
+
+    <string name="play_music_message">請選擇其他功能</string>
+    <string name="about_message">此程式由第十一組製作</string>
 
 </resources>

@@ -1,8 +1,6 @@
 <android.support.v4.widget.SlidingPaneLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    
-    android:id="@+id/LinearLayout1"
-    
+
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -19,5 +17,16 @@
         android:layout_height="match_parent"
         android:layout_weight="2" >
     </FrameLayout>
+
+
+    <!-- wind
+    <TextView
+        android:id="@+id/textViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+    -->
  
 </android.support.v4.widget.SlidingPaneLayout>
