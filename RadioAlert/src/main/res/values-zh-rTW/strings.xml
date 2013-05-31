@@ -50,4 +50,6 @@
     <string name="play_music_message">請選擇其他功能</string>
     <string name="about_message">此程式由第十一組製作</string>
 
+    <string name="time_to_play">"您預定的%s時間到了\n請問您要收聽嗎?"</string>
+
 </resources>

@@ -53,7 +53,7 @@ public class RadioActivity extends Activity {
 		try { 
 			mMediaPlayer = new MediaPlayer();
 			mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-			mMediaPlayer.setDataSource("http://radio.pinewave.tw/file/radio/"+id+".mp3");
+            mMediaPlayer.setDataSource("http://140.115.183.156:8000");
 			mMediaPlayer.prepare(); 
 		}catch (Exception e) {
 			Log.e("err", e.toString());

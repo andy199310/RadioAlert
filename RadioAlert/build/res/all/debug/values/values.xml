@@ -44,6 +44,7 @@
     <string name="share_send">Send Email</string>
     <string name="start_message">Start!</string>
     <string name="stop">Stop</string>
+    <string name="time_to_play">"您預定的%s時間到了\n請問您要收聽嗎?"</string>
     <string name="wait_message">Listen to Later</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

@@ -106,7 +106,8 @@ public final class R {
         public static final int share_send=0x7f080016;
         public static final int start_message=0x7f080017;
         public static final int stop=0x7f080018;
-        public static final int wait_message=0x7f080019;
+        public static final int time_to_play=0x7f080019;
+        public static final int wait_message=0x7f08001a;
     }
     public static final class style {
         /** 

@@ -55,4 +55,6 @@
     <string name="play_music_message">Please choose another one.</string>
     <string name="about_message">Made by Team 11!</string>
 
+    <string name="time_to_play">"您預定的%s時間到了\n請問您要收聽嗎?"</string>
+
 </resources>

@@ -43,8 +43,12 @@ public class ProgramFuture extends Fragment
 		
 		
 		programListView = (ListView)getActivity().findViewById(R.id.programFutureListView);
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DATE, -1);
+
+		programList = SQLBridge.getPinewaveFuture(getActivity().getApplicationContext(), cal.getTime());
 		
-		programList = SQLBridge.getPinewaveFuture(getActivity().getApplicationContext(), new Date());
+		
 		
 		
 		for(int i = 0; i < programList.length; i++)
@@ -89,22 +93,24 @@ public class ProgramFuture extends Fragment
 			System.out.println("nowDate is " + simpleDateFormat.format(nowDate));
 			System.out.println("chooseDate is " + simpleDateFormat.format(chooseDate));
 			
-			Long nowDateUnix = nowDate.getTime() + 8 * 60 * 60 * 1000;
-			// Long nowDateUnix = nowDate.getTime(); +8 time zone
+			//Long nowDateUnix = nowDate.getTime() + 8 * 60 * 60 * 1000;
+			 Long nowDateUnix = nowDate.getTime();// +8 time zone
 			Long chooseDateUnix = chooseDate.getTime();
 			int timeDelay = (int) (chooseDateUnix - nowDateUnix);
 			
 			System.out.println("timeDelay is " + timeDelay);
+
+            Log.d("delay", String.valueOf(timeDelay));
 			
-			
-			Calendar calendar = Calendar.getInstance();
-			calendar.add(Calendar.SECOND, 5);
-			// calendar.add(Calendar.SECOND, timeDelay / 1000);
-			
-			Intent intent = new Intent();
-			intent.setClass(getActivity(), PlayReceiver.class);
-			
-			intent.putExtra("id", programList[position][1]);
+
+            Calendar calendar = Calendar.getInstance();
+            //calendar.add(Calendar.SECOND, 5);
+            calendar.add(Calendar.SECOND, timeDelay / 1000);
+
+            Intent intent = new Intent();
+            intent.setClass(getActivity(), PlayReceiver.class);
+
+            intent.putExtra("id", programList[position][1]);
 			intent.putExtra("date", programList[position][2]);
 			intent.putExtra("time", programList[position][3]);
 			intent.putExtra("name", programList[position][4]);
@@ -117,8 +123,8 @@ public class ProgramFuture extends Fragment
 			AlarmManager alarmManager = (AlarmManager)getActivity().getSystemService(Context.ALARM_SERVICE);
 			
 			alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
-			
-			Toast.makeText(getActivity().getApplicationContext(), "你已預約收聽 " + programList[position][4], Toast.LENGTH_SHORT).show();
+
+			Toast.makeText(getActivity().getApplicationContext(), "You choose:" + programList[position][4], Toast.LENGTH_SHORT).show();
 			
 			
 		}

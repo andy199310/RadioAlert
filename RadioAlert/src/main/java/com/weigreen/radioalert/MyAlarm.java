@@ -46,7 +46,7 @@ public class MyAlarm extends Activity
 		listenButton = (Button)findViewById(R.id.listenButton);
 		waitButton = (Button)findViewById(R.id.waitButton);
         
-		notificationTextView.setText("您預定的 \"" + name + "\" 時間到了\n請問您要收聽嗎?");
+		notificationTextView.setText(getString(R.string.time_to_play, name));
 		
 		
         final NotificationManager notificationManager=(NotificationManager) getSystemService(NOTIFICATION_SERVICE);
