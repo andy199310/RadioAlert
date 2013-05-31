@@ -118,7 +118,7 @@ public class ProgramFuture extends Fragment
 			
 			alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
 			
-			Toast.makeText(getActivity().getApplicationContext(), "ßA§wπw¨˘¶¨≈• " + programList[position][4], Toast.LENGTH_SHORT).show();
+			Toast.makeText(getActivity().getApplicationContext(), "‰Ω†Â∑≤È†êÁ¥ÑÊî∂ËÅΩ " + programList[position][4], Toast.LENGTH_SHORT).show();
 			
 			
 		}
