@@ -68,11 +68,7 @@ public class SelectFragment extends ListFragment {
     		
     		SQLBridge.updatePinewave(getActivity().getApplicationContext());
 		}
-        else if (position == 5) {
-
-
-        }
-    	else if (position == 6) {
+    	else if (position == 5) {
     		
     		HomeFragment homeFragment = new HomeFragment();
     		FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
